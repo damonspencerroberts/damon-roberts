@@ -55,19 +55,19 @@ educ_names = [
 
 educ_desc = [
   '- Completed a Bachelor of Science in Economics with a concentration in Quantitative Economics.
-  - Concentrated primarily on Econometrics completing courses in Cross-sectional, Time-Series, and Panel Data.
+  - Concentrated primarily on Econometrics completing courses in Cross Sectional, Time Series, and Panel Data.
   - Completed multiple papers/projects on a diverse set of topics including GDP and CPI Growth, Sports Betting and its
   effects on the Economy, Alcohol Consumption across US States, and the Elasticity of Gasoline consumption.
   - Explored a vast range of subjects including programming, mathematics, geography, and many more.
   - Was named to the Deans List five times: Spring 18’, Fall 18’, Spring 18’, Fall 19’, Spring 20’.
-  - Was also titled an ITA Scholar-Athlete. “First JMU mens tennis player tabbed a Scholar-Athlete since 2006” 
+  - Was also titled an ITA Scholar Athlete. “First JMU mens tennis player tabbed a Scholar Athlete since 2006”
   (JMU Sports Article).',
   '
-    - 9 Week intensive bootcamp covering everything to do with Full-Stack Web Development.
+    - 9 Week intensive bootcamp covering everything to do with Full Stack Web Development.
     - Ruby
     - Ruby on Rails
     - JavaScript, CSS, HTML, and Bootstrap
-    - Object-Oriented Programming
+    - Object Oriented Programming
     - Database management with SQL
   '
 ]

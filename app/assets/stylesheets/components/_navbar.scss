@@ -5,6 +5,14 @@
   font-size: 1.4rem;
   font-weight: 700;
   padding: 20px 50px;
+  width: 100%;
+  position: fixed;
+  transition: background-color 0.8s;
+}
+
+.nav-scroll-down {
+  background-color: $green;
+  z-index: 1;
 }
 
 .nav__links {
@@ -15,7 +23,7 @@
 .navbar a {
   color: $light-gray;
   text-decoration: none;
-  transition: color 1s;
+  transition: color 0.8s;
 }
 
 .navbar a:hover {

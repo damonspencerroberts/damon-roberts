@@ -9,27 +9,51 @@
   <div class="d-flex justify-content-center align-items-center py-5">
     <h1>Biography</h1>
   </div>
-  <p class = "biography-paragraph">
-    I am seeking an opportunity in Full-Stack Web Development or Software Engineer. I am a graduate of James <br> 
-    Madison University with a Bachelor of Science. I have found my passion in programming and want to pursue a<br> 
-    career in the tech industry. I have taken many online courses but more recently decided to go all-in and<br> attend a Coding Bootcamp.
-    I am currently a student at Le Wagon London and am excited for what the future<br> holds.<br><br>
-    As a student, I competed in Division One tennis for my university. I am proficient in English and French, and hold
-    citizenship in Australia and Hungary (EU). I hold pre-settled EU status with the right to remain in the UK without a
-    work visa.<br><br>
+  <div class="container position-relative">
+    <p class="biography-paragraph">
+      I am seeking an opportunity in Full-Stack Web Development or Software Engineer. I am a graduate of James
+      Madison University with a Bachelor of Science. I have found my passion in programming and want to pursue a
+      career in the tech industry. I have taken many online courses but more recently decided to go all-in and attend
+      a Coding Bootcamp.
+      I am currently a student at Le Wagon London and am excited for what the future holds.<br><br>
+      As a student, I competed in Division One tennis for my university. I am proficient in English and French, and hold
+      citizenship in Australia and Hungary (EU). I hold pre-settled EU status with the right to remain in the UK without a
+      work visa.<br><br>
 
-    My professional skills include:<br><br>
+      My professional skills include:<br><br>
 
-    • Building websites and applications<br>
-    • Object-Oriented Programming<br>
-    • Python (NumPy, Matplotlib, Seaborn, pandas)<br>
-    • SQL (MySQL), NoSQL (MongoDB)<br>
-    • Ruby and Ruby on Rails<br>
-    • HTML5, CSS3, JavaScript, React Skills<br>
-    • jQuery and Bootstrap tools<br>
-    • node.js, Express.js, APIs, and Git<br>
-    • Basic knowledge of R and SAS<br>
-    • Multi-tasking and Managing Projects<br>
-    • Critical Thinking in a Team Environment<br>
-  </p>
+      • Building websites and applications<br>
+      • Object-Oriented Programming<br>
+      • Python (NumPy, Matplotlib, Seaborn, pandas)<br>
+      • SQL (MySQL), NoSQL (MongoDB)<br>
+      • Ruby and Ruby on Rails<br>
+      • HTML5, CSS3, JavaScript, React Skills<br>
+      • jQuery and Bootstrap tools<br>
+      • node.js, Express.js, APIs, and Git<br>
+      • Basic knowledge of R and SAS<br>
+      • Multi-tasking and Managing Projects<br>
+      • Critical Thinking in a Team Environment<br>
+    </p>
+  </div>
+
+  <div class="d-flex justify-content-center align-items-center py-5">
+    <h1>Education</h1>
+  </div>
+
+  <div class="row">
+    <% @educations.each do |educ| %>
+      <div class="col-lg-6">
+        <div class="p-4 m-2 border shadow-sm">
+          <h3 class = "py-3"><%= educ.name %></h3>
+          <ul>
+            <% educ.description.split("-").each_with_index do |p, i| %>
+              <% if i != 0 %>
+                <li><%= p %></li>
+              <% end %>
+            <% end %>
+          </ul>
+        </div>
+      </div>
+    <% end %>
+  </div>
 </div>
