@@ -5,6 +5,9 @@ const initControlNavbar = () => {
     console.log("clikc")
     navbar.classList.toggle('navbar');
     navbar.classList.toggle('navbar-show');
+    burger.classList.toggle('fa-bars')
+    burger.classList.toggle('fa-times')
+    document.querySelector('.reded').classList.toggle('transoshi')
   });
 };
 
