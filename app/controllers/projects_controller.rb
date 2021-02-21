@@ -1,5 +1,8 @@
 class ProjectsController < ApplicationController
-  def main
-    
+  def main; end
+
+  def index
+    @project = Project.all
+    @certificates = Certificate.all
   end
 end

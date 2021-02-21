@@ -13,13 +13,13 @@
 }
 
 .navbar a {
-  color: #1015A3;
+  color: $light-gray;
   text-decoration: none;
   transition: color 1s;
 }
 
 .navbar a:hover {
-  color: #02A60B;
+  color: $purple;
 }
 
 .nav__links a {

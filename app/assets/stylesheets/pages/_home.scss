@@ -2,7 +2,7 @@
 .information {
   height: 100%;
   width: 100%;
-  padding: 50px 0;
+  padding: 75px 0;
 }
 
 .information-content {
@@ -18,15 +18,16 @@
   position: relative;
 }
 
-// .home__img {
-//   z-index: -1;
-//   opacity: 0;
-//   position: absolute;
-//   width: 180px;
-//   border-radius: 10px;
-//   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
-//   filter: grayscale(var(--value, 100%));
-// }
+.home__img {
+  z-index: -1;
+  opacity: 0;
+  position: absolute;
+  width: 180px;
+  border-radius: 10px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
 
 .me {
   left: 30%;
@@ -48,7 +49,7 @@
 }
 
 .home__name:hover {
-  color: #02A60B;
+  color: $purple;
 }
 
 .home__name:hover .home__img {
