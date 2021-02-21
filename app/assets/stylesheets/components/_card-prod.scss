@@ -8,6 +8,17 @@
   align-items: center;
   margin-bottom: 20px;
   border-radius: 5px;
+  transform: translateY(0);
+  transition: transform 0.8s;
+}
+
+.card-product:hover {
+  transform: translateY(-10px);
+  opacity: 0.9;
+}
+
+.card-product a {
+  text-decoration: none;
 }
 
 .card-product img {
