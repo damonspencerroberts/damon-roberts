@@ -1,1 +1,57 @@
 // Specific CSS for your home-page
+.information {
+  height: 100%;
+  width: 100%;
+  padding: 50px 0;
+}
+
+.information-content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.information-content p {
+  font-size: 46px;
+  font-weight: 700;
+  position: relative;
+}
+
+// .home__img {
+//   z-index: -1;
+//   opacity: 0;
+//   position: absolute;
+//   width: 180px;
+//   border-radius: 10px;
+//   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+//   filter: grayscale(var(--value, 100%));
+// }
+
+.me {
+  left: 30%;
+  top: -100px;
+}
+
+.brit {
+  top: 0;
+  right: -30px;
+}
+
+.code {
+  bottom: 0;
+  left: 20%;
+}
+
+.home__name {
+  transition: color 1s;
+}
+
+.home__name:hover {
+  color: #02A60B;
+}
+
+.home__name:hover .home__img {
+  opacity: 1;
+  transition: ease-in-out 1s;
+}

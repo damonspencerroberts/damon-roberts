@@ -11,3 +11,12 @@
 // Your CSS partials
 @import "components/index";
 @import "pages/index";
+
+body {
+  margin: 0;
+  background-color: $green;
+  color: $light-gray;
+  padding: 25px 100px;
+  letter-spacing: 1.1px;
+  font-family: 'Montserrat', sans-serif;;
+}
