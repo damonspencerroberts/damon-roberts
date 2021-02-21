@@ -1,0 +1,18 @@
+.burger-menu {
+  display: none;
+  position: fixed;
+  width: 100%;
+}
+
+@media (max-width: 800px) {
+  .burger-menu {
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    z-index: 2;
+    cursor: pointer;
+  }
+}
